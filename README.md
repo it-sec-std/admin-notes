@@ -1,2 +1,3 @@
-# admin-notes
-Brief how-to of admin
+# Admin notes
+
+Brief how-to collection for administration.
