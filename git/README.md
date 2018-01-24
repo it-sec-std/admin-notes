@@ -9,8 +9,17 @@ https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodule
 
 `git clone --recursive -j8 git://github.com/foo/bar.git`
 
+### Update all submodules
 
-## Changin a remote's URL
+`git pull --recurse-submodules`
+if you want to pull your submodules to latest commits intead of what the repo points to.
+
+Note: If that's the first time you checkout a repo you need to use --init first:
+### Init all submodules
+
+`git submodule update --init --recursive`
+
+## Changing a remote's URL
 
 https://help.github.com/articles/changing-a-remote-s-url/
 
