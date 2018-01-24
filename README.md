@@ -2,6 +2,13 @@
 
 Brief how-to of admin
 
+## Files & dirs
+
+### Search for files
+
+find . -cmin -10 (created less than 10 mins)
+
+## Partitions
 
 
 ### Determine partition type
