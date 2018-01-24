@@ -30,3 +30,8 @@ https://help.github.com/articles/changing-a-remote-s-url/
 git remote -v
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 ```
+
+
+## Recover data
+
+I tend to use `git checkout .` which discards all changes from the working directory down. This makes a difference if you're not at the root of the repository.
