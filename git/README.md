@@ -35,3 +35,24 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 ## Recover data
 
 I tend to use `git checkout .` which discards all changes from the working directory down. This makes a difference if you're not at the root of the repository.
+
+# Duplicate git reps
+
+https://help.github.com/articles/duplicating-a-repository/
+
+```bash
+Open Git Bash.
+
+Create a bare clone of the repository.
+
+git clone --bare https://github.com/exampleuser/old-repository.git
+Mirror-push to the new repository.
+
+cd old-repository.git
+git push --mirror https://github.com/exampleuser/new-repository.git
+Remove the temporary local repository you created in step 1.
+
+
+cd ..
+rm -rf old-repository.git
+```
