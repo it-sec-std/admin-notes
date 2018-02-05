@@ -8,6 +8,10 @@ Brief how-to of admin
 
 find . -cmin -10 (created less than 10 mins)
 
+### Show dirs size
+
+du -sh *
+
 ## Partitions
 
 
