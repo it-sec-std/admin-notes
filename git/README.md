@@ -22,6 +22,10 @@ Note: If that's the first time you checkout a repo you need to use --init first:
 
 `git submodule update --init --recursive`
 
+### Pull correct rev for all submodules
+
+git submodule foreach git pull origin master
+
 ## Changing a remote's URL
 
 https://help.github.com/articles/changing-a-remote-s-url/
