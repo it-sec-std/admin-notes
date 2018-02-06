@@ -24,7 +24,7 @@ Note: If that's the first time you checkout a repo you need to use --init first:
 
 ### Pull correct rev for all submodules
 
-git submodule foreach git pull origin master
+`git submodule foreach git pull origin master`
 
 ## Changing a remote's URL
 
