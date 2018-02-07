@@ -60,3 +60,14 @@ Remove the temporary local repository you created in step 1.
 cd ..
 rm -rf old-repository.git
 ```
+
+## Merging branch to master
+
+https://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master
+
+```bash
+git checkout master
+git pull origin master
+git merge test
+git push origin master
+```
