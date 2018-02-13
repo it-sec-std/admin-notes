@@ -38,6 +38,8 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 ## Recover data
 
+
+
 I tend to use `git checkout .` which discards all changes from the working directory down. This makes a difference if you're not at the root of the repository.
 
 # Duplicate git reps
@@ -71,3 +73,16 @@ git pull origin master
 git merge test
 git push origin master
 ```
+
+
+## git proxy
+
+http://codeclimber.net.nz/archive/2015/01/20/how-to-unset-a-proxy-for-a-specific-git-repository/
+
+First you specify your global proxy configuration
+
+`$ git config --global --add http.proxy "http://proxy.example.com"`
+Then you move to the repository for which you want to unset the proxy and add an "empty" proxy.
+
+`$ git config --local --add http.proxy ""`
+And in case you need to specify an empty proxy only for a specific remote
