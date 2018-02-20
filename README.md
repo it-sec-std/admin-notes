@@ -41,3 +41,9 @@ https://www.maketecheasier.com/convert-virtual-machines-vmware-virtualbox/
 ## VirtualBox
 
 ### [Migration options](https://superuser.com/questions/633431/whats-the-recommended-way-to-move-a-virtualbox-vm-to-another-computer)
+
+
+## Ansible
+
+- [installation](http://docs.ansible.com/ansible/latest/intro_installation.html)
+- [unarchive](http://docs.ansible.com/ansible/latest/unarchive_module.html#examples)
