@@ -37,3 +37,7 @@ https://www.maketecheasier.com/convert-virtual-machines-vmware-virtualbox/
 `ovftool "c:\path\to\original_vm.vmx" "c:\path\to\export.ovf"`
 
 "c:\Program Files (x86)\VMware\VMware Player\OVFTool\ovftool.exe"
+
+## VirtualBox
+
+### [Migration options](https://superuser.com/questions/633431/whats-the-recommended-way-to-move-a-virtualbox-vm-to-another-computer)
