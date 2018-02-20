@@ -47,3 +47,20 @@ https://www.maketecheasier.com/convert-virtual-machines-vmware-virtualbox/
 
 - [installation](http://docs.ansible.com/ansible/latest/intro_installation.html)
 - [unarchive](http://docs.ansible.com/ansible/latest/unarchive_module.html#examples)
+
+
+## Config reading from bash
+
+- `source "$configfile"` http://wiki.bash-hackers.org/howto/conffile
+- [Reading YAML like bash vars](https://medium.com/@mike.reider/handle-bash-config-file-variables-like-a-pro-957dc9a838ed)
+ - per one line https://coderwall.com/p/xatm5a/bash-one-liner-to-read-yaml-files
+ - other https://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script
+ - python shyaml https://github.com/0k/shyaml
+ - https://gist.github.com/pkuczynski/8665367
+ - collection https://stackoverflow.com/questions/16571739/bash-parsing-variables-from-config-file
+ - read per line https://unix.stackexchange.com/questions/175648/use-config-file-for-my-shell-script
+ - https://askubuntu.com/questions/743493/best-way-to-read-a-config-file-in-bash
+ 
+## Makefile custom functions
+
+- https://coderwall.com/p/cezf6g/define-your-own-function-in-a-makefile
