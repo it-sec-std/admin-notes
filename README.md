@@ -42,6 +42,12 @@ https://www.maketecheasier.com/convert-virtual-machines-vmware-virtualbox/
 
 ### [Migration options](https://superuser.com/questions/633431/whats-the-recommended-way-to-move-a-virtualbox-vm-to-another-computer)
 
+### Change main VM path
+
+https://askubuntu.com/questions/800824/how-to-change-virtualbox-default-vm-location-in-command-line
+- set: `vboxmanage setproperty machinefolder /path/to/directory/`
+- check: `vboxmanage list systemproperties | grep folder`
+- virtual box: https://superuser.com/questions/408101/virtual-box-not-filling-entire-screen
 
 ## Ansible
 
